@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module version="4" type="J2EE_WEB_MODULE"> 
+  <component name="FacetManager"> 
+    <facet type="web" name="Web"> 
+      <configuration> 
+        <descriptors> 
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml"/> 
+        </descriptors>  
+        <webroots> 
+          <root url="file://$MODULE_DIR$/web" relative="/"/> 
+        </webroots>  
+        <sourceRoots> 
+          <root url="file://$MODULE_DIR$/src/main/java"/>  
+          <root url="file://$MODULE_DIR$/src/main/resources"/> 
+        </sourceRoots> 
+      </configuration> 
+    </facet> 
+  </component>  
+  <component name="WebModuleBuildComponent">
+    <setting name="EXPLODED_URL" value="file://$MODULE_DIR$/target/BookManager"/>
+  </component>
+  <component name="WebModuleProperties">
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/spring-web-5.3.21.jar"/>
+      <url>jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/org/springframework/spring-web/5.3.21/spring-web-5.3.21.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/spring-beans-5.3.21.jar"/>
+      <url>jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/org/springframework/spring-beans/5.3.21/spring-beans-5.3.21.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/spring-core-5.3.21.jar"/>
+      <url>jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/org/springframework/spring-core/5.3.21/spring-core-5.3.21.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/spring-jcl-5.3.21.jar"/>
+      <url>jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/org/springframework/spring-jcl/5.3.21/spring-jcl-5.3.21.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/spring-webmvc-5.3.18.jar"/>
+      <url>jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/org/springframework/spring-webmvc/5.3.18/spring-webmvc-5.3.18.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/spring-aop-5.3.18.jar"/>
+      <url>jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/org/springframework/spring-aop/5.3.18/spring-aop-5.3.18.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/spring-context-5.3.18.jar"/>
+      <url>jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/org/springframework/spring-context/5.3.18/spring-context-5.3.18.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/spring-expression-5.3.18.jar"/>
+      <url>jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/org/springframework/spring-expression/5.3.18/spring-expression-5.3.18.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/javax.servlet-api-4.0.1.jar"/>
+      <url>jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/jsp-api-2.2.jar"/>
+      <url>jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/javax/servlet/jsp/jsp-api/2.2/jsp-api-2.2.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/jstl-1.2.jar"/>
+      <url>jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/javax/servlet/jstl/1.2/jstl-1.2.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/junit-jupiter-api-5.7.0.jar"/>
+      <url>jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/apiguardian-api-1.1.0.jar"/>
+      <url>jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/opentest4j-1.2.0.jar"/>
+      <url>jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/junit-platform-commons-1.7.0.jar"/>
+      <url>jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar!/</url>
+    </containerElement>
+    <deploymentDescriptor version="2.3" name="web.xml" optional="false" url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/web.xml"/>
+    <webroots>
+      <root relative="/" url="file://$MODULE_DIR$/src/main/webapp"/>
+    </webroots>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/target/classes"/>
+    <output-test url="file://$MODULE_DIR$/target/test-classes"/>
+    <content>
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false"/>
+      <excludeFolder url="file://$MODULE_DIR$/target"/>
+    </content>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/org/springframework/spring-web/5.3.21/spring-web-5.3.21.jar!/"/>
+        </CLASSES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/org/springframework/spring-beans/5.3.21/spring-beans-5.3.21.jar!/"/>
+        </CLASSES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/org/springframework/spring-core/5.3.21/spring-core-5.3.21.jar!/"/>
+        </CLASSES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/org/springframework/spring-jcl/5.3.21/spring-jcl-5.3.21.jar!/"/>
+        </CLASSES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/org/springframework/spring-webmvc/5.3.18/spring-webmvc-5.3.18.jar!/"/>
+        </CLASSES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/org/springframework/spring-aop/5.3.18/spring-aop-5.3.18.jar!/"/>
+        </CLASSES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/org/springframework/spring-context/5.3.18/spring-context-5.3.18.jar!/"/>
+        </CLASSES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/org/springframework/spring-expression/5.3.18/spring-expression-5.3.18.jar!/"/>
+        </CLASSES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/"/>
+        </CLASSES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/javax/servlet/jsp/jsp-api/2.2/jsp-api-2.2.jar!/"/>
+        </CLASSES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/javax/servlet/jstl/1.2/jstl-1.2.jar!/"/>
+        </CLASSES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar!/"/>
+        </CLASSES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar!/"/>
+        </CLASSES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar!/"/>
+        </CLASSES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/IDEA_Environment/apache-maven-3.6.3/pro/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar!/"/>
+        </CLASSES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

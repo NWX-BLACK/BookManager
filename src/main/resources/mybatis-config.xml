@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--1.之后通过spring导入数据源-->
+
+    <!--2.实体类取别名-->
+    <typeAliases>
+        <package name="com.Nie.pojo"/>
+    </typeAliases>
+
+    <!--配置分页插件-->
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor"></plugin>
+    </plugins>
+
+    <!--3. mybatis-mappers映射-->
+    <mappers>
+        <mapper class="com.Nie.dao.BookMapper"></mapper>
+        <mapper class="com.Nie.dao.UserMapper"></mapper>
+    </mappers>
+
+</configuration>
