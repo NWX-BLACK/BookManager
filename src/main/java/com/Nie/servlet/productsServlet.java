@@ -2,16 +2,20 @@ package com.Nie.servlet;
 
 import com.Nie.pojo.Book;
 import com.Nie.pojo.BookCondition;
+import com.Nie.pojo.BookImage;
+import com.Nie.service.BookImageServiceImpl;
 import com.Nie.service.BookServiceImpl;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
 import java.util.List;
@@ -23,17 +27,28 @@ public class productsServlet {
     @Autowired
     private BookServiceImpl bookServiceImpl;
 
+    @Resource
+    private BookImageServiceImpl bookImageServiceImpl;
+
     @RequestMapping("/add")
     public String addBook(){
 
         return "admin/products/add";
     }
 
-    @RequestMapping("/edit")
+    @GetMapping("/edit")
     public String editBookById(@RequestParam("id") int id,@RequestParam("pageNum") int pageNum, Model model){
         Book book = bookServiceImpl.selectById(id);
         model.addAttribute("book",book);
-//        System.out.println("edit:"+pageNum);
+
+        BookImage bookImage = bookImageServiceImpl.selectByBookId(id);
+        String imgURL = "";
+        if(bookImage != null){
+            imgURL = bookImage.getImgUrl();
+        }
+
+//        System.out.println(imgURL);
+        model.addAttribute("imgURL",imgURL);
         model.addAttribute("pageNum",pageNum);
         return "admin/products/edit";
     }

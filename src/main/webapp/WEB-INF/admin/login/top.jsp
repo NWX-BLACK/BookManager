@@ -27,13 +27,12 @@ TH {
 <link href="${pageContext.request.contextPath}/static/admin/css/Style.css"
 	rel="stylesheet" type="text/css">
 	<link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-
 	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
 
 	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-
 	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <script type="text/javascript">
@@ -46,6 +45,20 @@ TH {
 		}
 		//如果你使用的是firefox浏览器必须要做以下设置 
 		//1、在地址栏输入about:config然后回车，警告确认 
+		//2、在过滤器中输入”dom.allow_scripts_to_close_windows“，双击即可将此值设为true 即可完成了
+	}
+</script>
+
+<script type="text/javascript">
+	function deleteUser() {
+		var flag = window.confirm("这是一个危险操作，请谨慎处理");
+		if (flag) {
+			window.top.open('', '_parent', '');
+			window.top.close();
+			window.location.href = "/toDeleteUser";
+		}
+		//如果你使用的是firefox浏览器必须要做以下设置
+		//1、在地址栏输入about:config然后回车，警告确认
 		//2、在过滤器中输入”dom.allow_scripts_to_close_windows“，双击即可将此值设为true 即可完成了
 	}
 </script>
@@ -102,10 +115,22 @@ TH {
 								</script>
 						</font>
 						</td>
-						<td width="8%">
-							用户：<%=session.getAttribute("loginUser")%>
+						<td width="8%" align="left" >
+							<div class="dropdown">
+								<a id="dLabel" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-size: 14px">
+									用户：<%=session.getAttribute("loginUser")%>
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+									<li><a href="/toModifyPassWord">修改密码</a></li>
+									<li><a href="#" onclick="deleteUser()">注销用户</a></li>
+							<%--		<li><a href="#">Something else here</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#">Separated link</a></li>--%>
+								</ul>
+							</div>
 						</td>
-                        <td width="5%" align="right">
+                        <td width="7%" align="right">
                             <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                 <tr>
                                     <td width="8"
@@ -116,7 +141,7 @@ TH {
                                     </td>
                                     <td width="100" valign="bottom center" align="center"
                                         background="${pageContext.request.contextPath}/static/admin/images/mis_05b.jpg">
-                                       <a href="javascript:void(0)" onclick="exitSys()" style="border: soild">退出系统</a>
+                                       <a href="javascript:void(0)" onclick="exitSys()" style="border: solid">退出系统</a>
 									</td>
                                     <td width="8" align="right"
                                         background="${pageContext.request.contextPath}/static/admin/images/mis_05b.jpg">
@@ -133,5 +158,24 @@ TH {
 			</td>
 		</tr>
 	</table>
+
+	<%--<script type="text/javascript">
+		function deleteUser(){
+			swal({
+				text:"输入密码注销用户",
+				ico:"warning",
+				content:{
+					element:"input",
+					attributes: {
+						placeholder: "请输入密码",
+						type: "password",
+						name: "passWord",
+					},
+				},
+				dangerMode: true,
+				closeOnClickOutside: false,
+			})
+		};
+	</script>--%>
 </body>
 </HTML>

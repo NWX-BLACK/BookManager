@@ -20,6 +20,7 @@
     <mappers>
         <mapper class="com.Nie.dao.BookMapper"></mapper>
         <mapper class="com.Nie.dao.UserMapper"></mapper>
+        <mapper class="com.Nie.dao.BookImageMapper"></mapper>
     </mappers>
 
 </configuration>

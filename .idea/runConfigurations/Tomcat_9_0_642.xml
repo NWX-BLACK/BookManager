@@ -12,6 +12,7 @@
     </deployment>
     <server-settings>
       <option name="BASE_DIRECTORY_NAME" value="9f3ab148-5e4f-466a-9736-2a372b9e9afb" />
+      <option name="DEPLOY_TOMCAT_APPS" value="true" />
       <option name="HTTP_PORT" value="8081" />
       <option name="JNDI_PORT" value="1100" />
     </server-settings>

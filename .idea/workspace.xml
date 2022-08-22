@@ -9,7 +9,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1d51c29-8d25-4919-8615-f0964d529c23" name="Default Changelist" comment="" />
+    <list default="true" id="d1d51c29-8d25-4919-8615-f0964d529c23" name="Default Changelist" comment="用户模块和图片上传功能">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Nie/Utils/UpLoadFilesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Nie/dao/BookImageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Nie/dao/BookImageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Nie/dao/BookImageMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Nie/pojo/BookImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Nie/service/BookImageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Nie/service/BookImageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login/deleteUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login/modifyPassWord.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BookImageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/uploadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BookManager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BookManager.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/BookManager_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/BookManager_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Tomcat_9_0_642.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Tomcat_9_0_642.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Nie/constant/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Nie/constant/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Nie/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Nie/dao/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Nie/filter/loginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Nie/filter/loginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Nie/pojo/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Nie/pojo/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Nie/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Nie/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Nie/service/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Nie/service/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Nie/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Nie/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Nie/servlet/crudServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Nie/servlet/crudServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Nie/servlet/indexServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Nie/servlet/productsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Nie/servlet/productsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-data-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-data-redis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/products/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/products/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/products/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/products/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/products/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/products/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/admin/left.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BookServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BookServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserServiceImplTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,11 +67,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="jsf" />
         <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -57,32 +110,40 @@
     </option>
   </component>
   <component name="ProjectId" id="2CBdRwFwmS8TBHlvY8PPS3q3o3O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/spring-redis.xml" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target/BookManager-1.0-SNAPSHOT/static" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.54063606" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.Nie.dao" />
       <recent name="com.Nie.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IDEA\BookManager\src\main\java\com\Nie\pojo" />
-      <recent name="E:\IDEA\BookManager\src\main\webapp\static" />
-      <recent name="E:\IDEA\BookManager\src\main\webapp\static\admin" />
-      <recent name="E:\IDEA\BookManager\src\main\webapp\WEB-INF" />
-      <recent name="E:\IDEA\BookManager\src\main\resources" />
+      <recent name="E:\IDEA\BookManager\target\BookManager-1.0-SNAPSHOT\static" />
+      <recent name="E:\IDEA\BookManager\src\main\webapp\static\image\book" />
+      <recent name="E:\IDEA\BookManager\src\main\webapp" />
+      <recent name="E:\IDEA\BookManager\src\main\webapp\static\admin\css" />
+      <recent name="E:\IDEA\BookManager\src\main\webapp\static\admin\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IDEA\BookManager\target\BookManager-1.0-SNAPSHOT\static" />
       <recent name="E:\IDEA\BookManager\src\main\webapp\static\admin" />
       <recent name="E:\IDEA\BookManager\src\main" />
       <recent name="E:\IDEA\BookManager" />
@@ -90,6 +151,16 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.642">
+    <configuration name="BookImageTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BookManager" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BookImageTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BookMapperTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BookManager" />
       <option name="PACKAGE_NAME" value="" />
@@ -120,16 +191,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="uploadTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BookManager" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="uploadTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.BookMapperTest.test" />
       <item itemvalue="JUnit.BookServiceImplTest.test" />
       <item itemvalue="JUnit.UserServiceImplTest.test" />
+      <item itemvalue="JUnit.BookImageTest.test" />
+      <item itemvalue="JUnit.uploadTest.test" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.642" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserServiceImplTest.test" />
+        <item itemvalue="JUnit.uploadTest.test" />
+        <item itemvalue="JUnit.BookImageTest.test" />
         <item itemvalue="JUnit.BookServiceImplTest.test" />
+        <item itemvalue="JUnit.UserServiceImplTest.test" />
         <item itemvalue="JUnit.BookMapperTest.test" />
       </list>
     </recent_temporary>
@@ -158,12 +243,22 @@
       <workItem from="1659577253295" duration="237000" />
       <workItem from="1660465841424" duration="5209000" />
       <workItem from="1660474707582" duration="8887000" />
-      <workItem from="1660617662044" duration="386000" />
+      <workItem from="1660617662044" duration="1725000" />
+      <workItem from="1660649413135" duration="424000" />
+      <workItem from="1660699475976" duration="8945000" />
+      <workItem from="1660708545455" duration="57335000" />
+      <workItem from="1660994769932" duration="40523000" />
+      <workItem from="1661134912047" duration="834000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="用户模块和图片上传功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户模块和图片上传功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -180,9 +275,14 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/Nie/service/UserServiceImpl.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="11" />
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login/register.jsp</url>
+          <line>111</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Nie/servlet/UserServlet.java</url>
+          <line>158</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -7,7 +7,6 @@
     <meta http-equiv="Content-Language" content="zh-cn">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link href="${pageContext.request.contextPath}/static/admin/css/Style.css" type="text/css" rel="stylesheet" />
-    <link href="${pageContext.request.contextPath}/static/admin/css/left.css" rel="stylesheet" type="text/css">
     <script language="javascript" src="${pageContext.request.contextPath}/static/admin/js/public.js"></script>
     <script language="javascript" src="${pageContext.request.contextPath}/static/admin/js/check.js"></script>
 
@@ -41,57 +40,18 @@
 
     <div class="row" style="height: 76%">
         <div class="col-md-2"  style="border-right: 2px solid black;height: 100% ;background-color: #E6E6E6;margin: 0px;text-align:left;">
-            <table width="100" border="0" cellspacing="0" cellpadding="0">
-                <tr>
-                    <td height="12"></td>
-                </tr>
-            </table>
-            <table width="100%" border="0">
-                <tr>
-                    <td style="font-size:20px;line-height:20px;">
-                        <div class="span12">
-                            <div class="row-fluid">
-                                <div class="span4">
-                                </div>
-                                <div class="span4">
-                                    <ul class="nav nav-list well" style="background-color: #E6E6E6;color:#303030;">
-                                        <li class="active">
-                                            <a href="/login/home" style="font-size: 14px">首页</a>
-                                        </li>
-                                        <li>
-                                            <a href="/products/list/page/1" style="font-size: 14px">显示所有书籍</a>
-                                        </li>
-                                        <li>
-                                            <a href="/products/add" style="font-size: 14px">添加书籍</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" style="font-size: 14px">设置</a>
-                                        </li>
-                                        <li class="divider">
-                                        </li>
-                                        <li>
-                                            <a href="#" style="font-size: 14px">帮助</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="span4">
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-                </tr>
-            </table>
+            <jsp:include page="../login/left.jsp"></jsp:include>
         </div>
         <div class="col-md-10">
             <div class="row">
-                <table width="100%" border="0" height="20" background="${pageContext.request.contextPath}/static/admin/images/back1.JPG">
+                <table width="100%" border="0" height="20" >
                     <tr>
                         <td class="ta_01" align="center" bgColor="#afd1f3" colSpan="4" height="26"><strong><STRONG>编辑商品</STRONG> </strong></td>
                     </tr>
                     <tr><td height=2></td></tr>
                     <tr align="center">
                         <td width="100%" height="84" align="center" >
-                            <form id="userAction_save_do" name="Form1" action="/servlet/editBookServlet" method="post">
+                            <form id="userAction_save_do" name="Form1" action="/servlet/editBookServlet" method="post" enctype="multipart/form-data">
                                 <input type="hidden" name="id" value="${book.id}"/>
                                 <input type="hidden" name="pageNum" value="${pageNum}"/>
                                 <table cellSpacing="1" cellPadding="5" width="100%" align="center"
@@ -124,9 +84,19 @@
                                             <option value="生活百科">生活百科</option>
                                         </select></td>
                                     </tr>
-                                    <tr>
+
+                                    <tr bgColor="#ffffff">
                                         <td align="center" bgColor="#f5fafe" class="ta_01">商品图片：</td>
-                                        <td class="ta_01" bgColor="#ffffff" colSpan="3"><input type="file" name="upload" size="30" value="" /></td>
+                                        <td bgColor="#ffffff" >
+                                            <div id="imageCell" >
+                                                <img  src="/${imgURL}" height="200px" width="200px" />
+                                                <button id="imageCellBut" type="button" class="btn btn-white btn-sm" data-min-file-count="1">&nbsp;&nbsp;&nbsp;&nbsp;修改&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                                            </div>
+
+                                            <div id="imputCell" >
+                                                <input id="file" class="file" name="file" type="file" data-min-file-count="1"/>
+                                            </div>
+                                        </td>
                                     </tr>
                                     <TR>
                                         <TD class="ta_01" align="center" bgColor="#f5fafe">商品描述：</TD>
@@ -147,6 +117,7 @@
                                             <span id="Label1"> </span>
                                         </td>
                                     </tr>
+                                    <input type="hidden" id="imageURL" value='${imgURL}'>
                                 </table>
                             </form>
                         </td>
@@ -160,6 +131,25 @@
     </div>
 </div>
 <jsp:include page="../login/bottom.jsp"></jsp:include>
+
+
+<script  type="text/javaScript">
+    var image = "${imgURL}";
+    $(document).ready(function () {
+        console.log(image);
+        if(image==null || image==""){
+            $("#imageCell").hide();
+            $("#imputCell").show();
+        } else {
+            $("#imageCell").show();
+            $("#imputCell").hide();
+        }
+        $("#imageCellBut").click(function(){
+            $("#imageCell").hide();
+            $("#imputCell").show();
+        });
+    });
+</script>
 </body>
 
 </html>

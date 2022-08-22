@@ -48,25 +48,25 @@
     <!--    </bean>-->
 
     <bean id="redisTemplate"
-          class="org.springframework.data.redis.core.StringRedisTemplate">
+          class="org.springframework.data.redis.core.RedisTemplate">
         <property name="connectionFactory" ref="connectionFactory" />
         <!-- 如果不配置Serializer，那么存储的时候只能使用String，如果用对象类型存储，那么会提示错误 can't cast to String！！！-->
-        <property name="keySerializer">
-            <!--对key的默认序列化器。默认值是StringSerializer-->
+        <!--<property name="keySerializer">
+            &lt;!&ndash;对key的默认序列化器。默认值是StringSerializer&ndash;&gt;
             <bean class="org.springframework.data.redis.serializer.StringRedisSerializer"/>
         </property>
-        <!--是对value的默认序列化器，默认值是取自DefaultSerializer的JdkSerializationRedisSerializer。-->
+        &lt;!&ndash;是对value的默认序列化器，默认值是取自DefaultSerializer的JdkSerializationRedisSerializer。&ndash;&gt;
         <property name="valueSerializer">
             <bean class="org.springframework.data.redis.serializer.StringRedisSerializer"/>
         </property>
-        <!--存储Map时key需要的序列化配置-->
+        &lt;!&ndash;存储Map时key需要的序列化配置&ndash;&gt;
         <property name="hashKeySerializer">
             <bean class="org.springframework.data.redis.serializer.JdkSerializationRedisSerializer"/>
         </property>
-        <!--存储Map时value需要的序列化配置-->
+        &lt;!&ndash;存储Map时value需要的序列化配置&ndash;&gt;
         <property name="hashValueSerializer">
             <bean class="org.springframework.data.redis.serializer.JdkSerializationRedisSerializer"/>
-        </property>
+        </property>-->
     </bean>
 
     <!--配置redis工具类bean-->

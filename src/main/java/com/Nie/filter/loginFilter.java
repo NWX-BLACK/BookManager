@@ -19,7 +19,7 @@ public class loginFilter implements Filter {
         httpServletResponse.setCharacterEncoding("UTF-8");
 
         //不过滤的uri
-        String[] notFilter = new String[]{"/","/login/login","/login/toHome"};
+        String[] notFilter = new String[]{"/","/login/login","/register","/toRegister","/login/toHome"};
 
         //请求的uri
         String uri = httpServletRequest.getRequestURI();

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.Nie.dao.BookImageMapper">
+
+    <select id="selectByBookImageId" resultType="BookImage">
+        select * from bookImage where bookImageId = #{bookImageId};
+    </select>
+
+    <select id="selectByBookId" resultType="BookImage">
+        select * from bookImage where bookId = #{bookId};
+    </select>
+
+    <insert id="insertByBookImage">
+        insert into bookImage values (null,#{bookImage.bookId},#{bookImage.imgUrl});
+    </insert>
+
+    <delete id="deleteByBookImageId">
+        delete from bookImage where bookImageId = #{bookImageId};
+    </delete>
+
+    <update id="updateByBookImage">
+        update bookImage set bookImageId = #{bookImage.bookImageId},imgUrl = #{bookImage.imgUrl}
+        where bookImageId = #{bookImage.bookImageId};
+    </update>
+</mapper>

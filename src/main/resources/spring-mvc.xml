@@ -19,9 +19,17 @@
     <!-- 开启mvc注解配置 -->
     <mvc:annotation-driven></mvc:annotation-driven>
 
+   <!--视图解析器-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" id="internalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/"/>
         <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <!-- 上传文件 -->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="defaultEncoding" value="utf-8" />
+        <property name="maxInMemorySize" value="102400000" />    <!-- 最大内存大小 -->
+        <property name="maxUploadSize" value="-1" />        <!-- 最大文件大小，-1为不限制大小 -->
     </bean>
 
 </beans>

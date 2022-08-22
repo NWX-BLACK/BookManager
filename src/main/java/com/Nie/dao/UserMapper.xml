@@ -23,15 +23,17 @@
         select * from BookManager.`User` where userName = #{userName}
     </select>
 
-    <insert id="insertUser">
-        insert into `User` values (null,#{userId},#{userName},#{passWord},#{lastLoginTime})
+    <insert id="insertUser" useGeneratedKeys="true" keyProperty="user.userId">
+        insert into `User` values (null,#{user.userName},#{user.passWord},#{user.lastLoginTime})
     </insert>
 
     <delete id="deleteUser">
         delete from `User` where userName = #{userName}
     </delete>
 
-    <update id="updateUser">
-        update `User` set passWord = #{user.passWord},last_login_time = #{lastLoginTime}
+    <update id="updateUser" parameterType="User">
+        update `User` set passWord = #{user.passWord},last_login_time = #{user.lastLoginTime}
+        where userId = #{userId};
     </update>
+
 </mapper>

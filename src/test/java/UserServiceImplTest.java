@@ -18,6 +18,5 @@ public class UserServiceImplTest {
             System.out.println(user.toString());
         }
 
-        System.out.println(userServiceImpl.queryByUserName("").toString());
     }
 }

@@ -28,46 +28,7 @@
 
     <div class="row" style="height: 76%">
         <div class="col-md-2"  style="border-right: 2px solid black;height: 100% ;background-color: #E6E6E6;margin: 0px;text-align:left;">
-            <table width="100" border="0" cellspacing="0" cellpadding="0">
-                <tr>
-                    <td height="12"></td>
-                </tr>
-            </table>
-            <table width="100%" border="0">
-                <tr>
-                    <td style="font-size:20px;line-height:20px;">
-                        <div class="span12">
-                            <div class="row-fluid">
-                                <div class="span4">
-                                </div>
-                                <div class="span4">
-                                    <ul class="nav nav-list well" style="background-color: #E6E6E6;color:#303030;">
-                                        <li class="active">
-                                            <a href="/login/home" style="font-size: 14px">首页</a>
-                                        </li>
-                                        <li>
-                                            <a href="/products/list/page/1" style="font-size: 14px">显示所有书籍</a>
-                                        </li>
-                                        <li>
-                                            <a href="/products/add" style="font-size: 14px">添加书籍</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" style="font-size: 14px">设置</a>
-                                        </li>
-                                        <li class="divider">
-                                        </li>
-                                        <li>
-                                            <a href="#" style="font-size: 14px">帮助</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="span4">
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-                </tr>
-            </table>
+            <jsp:include page="../login/left.jsp"></jsp:include>
         </div>
         <div class="col-md-10">
             <div class="row">
