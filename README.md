@@ -21,20 +21,20 @@
 
 
 ## 效果预览
-![登录页面]()
+![登录页面](https://github.com/NieWenX/BookManager/tree/master/BookManagerImg/login.png)
 
 
-![首页]()
+![首页](https://github.com/NieWenX/BookManager/tree/master/BookManagerImg/home.png)
 
 
 
-![按条件查询书籍并分页显示]()
+![按条件查询书籍并分页显示](https://github.com/NieWenX/BookManager/tree/master/BookManagerImg/queryByCondition.png)
 
 
-![上传图片]()
+![上传图片](https://github.com/NieWenX/BookManager/tree/master/BookManagerImg/editAndUploadImg.png)
 
 
-![修改账户密码或注销用户]()
+![修改账户密码或注销用户](https://github.com/NieWenX/BookManager/tree/master/BookManagerImg/editPassWord.png)
 
 
 
