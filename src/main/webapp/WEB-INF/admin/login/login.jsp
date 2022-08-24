@@ -70,7 +70,7 @@
                     <div class="form-group has-feedback">
                         <label class="control-label sr-only">用户名</label>
                         <div class="col-xs-8 col-xs-offset-2">
-                            <input type="text" class="form-control" name="userName" id="" value="${userName}" placeholder="请输入用户名" />
+                            <input type="text" class="form-control" name="userName"  value="${userName}" placeholder="请输入用户名" />
                             <span class="glyphicon glyphicon-user form-control-feedback"></span>
                         </div>
                     </div>

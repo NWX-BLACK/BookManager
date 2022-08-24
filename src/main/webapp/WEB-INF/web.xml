@@ -20,10 +20,12 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
-<!--    &lt;!&ndash;    login.jsp为设置为默认首页的页面&ndash;&gt;
+    <!--    login.jsp为设置为默认首页的页面-->
+<!--
     <welcome-file-list>
         <welcome-file> /WEB-INF/admin/login/login.jsp </welcome-file> &lt;!&ndash;&ndash;&gt;
-    </welcome-file-list>-->
+    </welcome-file-list>
+-->
 
 
     <!--乱码过滤器-->
@@ -41,12 +43,12 @@
     </filter-mapping>
 
     <!--权限过滤器-->
-<!--    <filter>
+    <filter>
         <filter-name>loginFilter</filter-name>
         <filter-class>com.Nie.filter.loginFilter</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>loginFilter</filter-name>
         <url-pattern>/*</url-pattern>
-    </filter-mapping>-->
+    </filter-mapping>
 </web-app>

@@ -141,7 +141,7 @@ TH {
                                     </td>
                                     <td width="100" valign="bottom center" align="center"
                                         background="${pageContext.request.contextPath}/static/admin/images/mis_05b.jpg">
-                                       <a href="javascript:void(0)" onclick="exitSys()" style="border: solid">退出系统</a>
+                                       <a href="javascript:void(0)" onclick="exitSys()">退出系统</a>
 									</td>
                                     <td width="8" align="right"
                                         background="${pageContext.request.contextPath}/static/admin/images/mis_05b.jpg">

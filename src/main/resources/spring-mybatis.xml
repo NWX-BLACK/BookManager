@@ -19,7 +19,7 @@
 <!--    <context:property-placeholder location="classpath:db.properties"/>-->
 
     <!--2.连接池-->
-    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" scope="singleton">
         <property name="driverClass" value="${jdbc.driver}"/>
         <property name="jdbcUrl" value="${jdbc.url}"/>
         <property name="user" value="${jdbc.user}"/>
@@ -28,8 +28,9 @@
 
         <property name="initialPoolSize" value="3"/>
         <property name="maxIdleTime" value="30"/>
-        <property name="maxPoolSize" value="15"/>
+        <property name="maxPoolSize" value="5"/>
         <property name="minPoolSize" value="3"/>
+
     </bean>
 
     <!--3.sqlsessionFactory-->

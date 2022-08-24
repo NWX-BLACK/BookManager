@@ -10,54 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1d51c29-8d25-4919-8615-f0964d529c23" name="Default Changelist" comment="用户模块和图片上传功能">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Nie/Utils/UpLoadFilesUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Nie/dao/BookImageMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Nie/dao/BookImageMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Nie/dao/BookImageMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Nie/pojo/BookImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Nie/service/BookImageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Nie/service/BookImageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login/deleteUser.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login/modifyPassWord.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BookImageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/uploadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BookManager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BookManager.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/BookManager_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/BookManager_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Tomcat_9_0_642.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Tomcat_9_0_642.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Nie/constant/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Nie/constant/Constant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Nie/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Nie/dao/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Nie/filter/loginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Nie/filter/loginFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Nie/pojo/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Nie/pojo/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Nie/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Nie/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Nie/service/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Nie/service/BookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Nie/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Nie/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Nie/servlet/crudServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Nie/servlet/crudServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Nie/servlet/indexServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Nie/servlet/productsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Nie/servlet/productsServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-data-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-data-redis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Nie/service/VerifyCodeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Nie/service/VerifyCodeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Nie/service/VerifyCodeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Nie/service/VerifyCodeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login/top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/products/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/products/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/products/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/products/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/products/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/products/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/admin/left.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BookServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BookServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +34,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -248,12 +212,31 @@
       <workItem from="1660699475976" duration="8945000" />
       <workItem from="1660708545455" duration="57335000" />
       <workItem from="1660994769932" duration="40523000" />
-      <workItem from="1661134912047" duration="834000" />
+      <workItem from="1661134912047" duration="12893000" />
     </task>
+    <task id="LOCAL-00001" summary="用户模块和图片上传功能">
+      <created>1661136082384</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661136082384</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -278,11 +261,6 @@
           <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login/register.jsp</url>
           <line>111</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/Nie/servlet/UserServlet.java</url>
-          <line>158</line>
-          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

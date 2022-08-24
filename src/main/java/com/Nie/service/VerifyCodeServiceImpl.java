@@ -14,7 +14,7 @@ public class VerifyCodeServiceImpl implements VerifyCodeService {
     @Resource
     private RedisTemplate<String,String> redisTemplate;
 
-    public String verifyCodeCreate() {
+    public static String verifyCodeCreate() {
         Random random = new Random();
         String value = "";
         for (int i = 0; i < 6; i++) {
@@ -24,8 +24,9 @@ public class VerifyCodeServiceImpl implements VerifyCodeService {
     }
 
     public String insertVerifyCode(long timeOut) {
-        String verifyCode = verifyCodeCreate();
+        String verifyCode = VerifyCodeServiceImpl.verifyCodeCreate();
         redisTemplate.opsForValue().set("verifyCode",verifyCode, timeOut ,TimeUnit.SECONDS);
+        System.out.println("insertVerifyCode:"+verifyCode);
         return verifyCode;
     }
 
